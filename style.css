@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch-container {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.5);
+  text-align: center;
+  width: 350px;
+  color: #fff;
+}
+
+h1 {
+  color: #c084fc;
+}
+
+#display {
+  background: #7c3aed;
+  color: #fff;
+  font-size: 40px;
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.8);
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #6d28d9;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #a855f7;
+  transform: scale(1.05);
+}
+
+#laps {
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+#laps li {
+  padding: 6px 10px;
+  border-bottom: 1px solid #444;
+  color: #ccc;
+}
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #f87171;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  transition: color 0.3s;
+}
+
+.delete-btn:hover {
+  color: #ef4444;
+}
